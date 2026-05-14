@@ -1,0 +1,86 @@
+
+body{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+/* Card background: rgba(255,255,255,0.95) */
+/* background: linear-gradient(145deg, #1a1a2e, #16213e); */
+/* Card background: #0f0f1a with subtle border */
+text-align: center;
+justify-content: center;
+display: flex;
+gap: 20px;
+flex-direction: column;
+backdrop-filter: initial;
+margin: 0;
+padding: 0;
+
+
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#content{
+    height: 25vh;
+    width: 75vw;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+
+box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    
+    margin-left: 12vw;
+    font-size:xx-large;
+    overflow-wrap: break-word;
+    padding: 20px;
+
+}
+#input{
+      height: 25vh;
+    width: 75vw;
+    border-radius: 50px;
+    font-size:xx-large;
+    white-space: pre-wrap;      
+    word-wrap: break-word;       
+    overflow-y: auto;
+    margin-left: 12vw;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    border-radius: 50px;
+    Background:#10b981;
+    cursor: pointer;
+    
+
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    
+}
+#wpm{
+    margin-left: 25vw;
+
+}
+#timer,#wpm{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50px;
+    justify-content:baseline;
+    font-size: larger;
+    Background: rgba(255, 255, 255, 0.15);
+
+    Border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
